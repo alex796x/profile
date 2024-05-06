@@ -1,0 +1,90 @@
+#Profile_pic {
+  width: 100px;
+}
+
+
+h1 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 45px;
+  color: red;
+}
+
+h2 {
+  font-family: "Dosis", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+body {
+  background-color: aquamarine;
+  font-family: arial;
+  font-size: 30px;
+  line-height: normal;
+}
+
+.button {
+  color: red;
+  font-family: "Dosis", sans-serif;
+  background-color: black;
+  border-radius: 7px;
+  padding: 15px 32px;
+  text-align: justify;
+  font-size: 20px;
+  font-weight: bold;
+  position: center;
+}
+
+.button:hover {
+  color: greenyellow;
+}
+
+.container {
+  margin: 20px auto;
+  background-color: beige;
+
+  padding: 30px;
+  text-align: center;
+  width: 50vw;
+
+}
+
+.container_social {
+  margin: 0 auto;
+  background-color: beige;
+
+  padding: 30px;
+  text-align: center;
+
+  width: 50vw;
+  margin: 20px auto;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: inline;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
